@@ -110,7 +110,7 @@ let move = () => {
     let my_sec = date.getSeconds().toString();
 
     if (my_hour.length == 1) {
-        my_hour = "0" + my_min;
+        my_hour = "0" + my_hour;
     }
     if (my_min.length == 1) {
         my_min = "0" + my_min;
