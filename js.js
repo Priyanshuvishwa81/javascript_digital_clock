@@ -109,35 +109,37 @@ let move = () => {
     let my_min = date.getMinutes().toString();
     let my_sec = date.getSeconds().toString();
 
-    
-    // first hour
-
-
-    if (my_min == "0") {
-        runs_clear(1, 35);
-        runs_clear(36, 70);
-    }
     if (my_hour.length == 1) {
         my_hour = "0" + my_min;
     }
+    if (my_min.length == 1) {
+        my_min = "0" + my_min;
+    }
+    if (my_sec.length == 1) {
+        my_sec = "0"+ my_sec;
+    }
+
+    // first hour
+
+    if (my_min == "00") {
+        runs_clear(1, 35);
+        runs_clear(36, 70);
+    }
+    
     let my_hour_new_arr = my_hour.split("");
     
     run(all_num1[my_hour_new_arr[0]]);
     run(all_num2[my_hour_new_arr[1]]);
 
     // second minit
-    
-    if (my_sec == "0") {
+
+
+    if (my_sec == "00") {
         runs_clear(71, 105);
         runs_clear(106, 140);
     }
-    if (my_min.length == 1) {
-        my_min = "0" + my_min;
-    }
+   
     let my_min_new_arr = my_min.split("");
-
-    
-
 
     run(all_num3[my_min_new_arr[0]]);
     run(all_num4[my_min_new_arr[1]]);
@@ -145,9 +147,7 @@ let move = () => {
 
     // third
     
-    if (my_sec.length == 1) {
-        my_sec = "0"+ my_sec;
-    }
+   
     let my_sec_new_arr = my_sec.split("");
 
 

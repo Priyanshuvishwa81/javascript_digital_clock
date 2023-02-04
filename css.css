@@ -9,13 +9,13 @@ body{
 .clock{
     height: 40vh;
     width: 60%;
-    background-color: rgb(212, 241, 43);
+    background-color: rgb(238, 218, 129);
     position: relative;
     display: flex;
     justify-content: center;
     
     align-items: center;
-    box-shadow: inset -5px 1px 17px 6px red;
+    box-shadow: inset -5px 1px 17px 6px rgb(226, 162, 162);
 }
 .hour{
     height: 100%;
@@ -44,7 +44,7 @@ body{
     float: left;
     border: 1px solid rgb(218, 173, 173);
     background-color:  rgb(204, 247, 237);
-    box-shadow: 3px 13px 17px 0px red;
+    box-shadow: 3px 13px 17px 0px rgb(70, 66, 66);
 }
 .min_box{
     height: 100%;
@@ -52,7 +52,7 @@ body{
     float: left;
     border: 1px solid  rgb(218, 173, 173);
     background-color: rgb(204, 247, 237);
-    box-shadow: 3px 13px 17px 0px red;
+    box-shadow: 3px 13px 17px 0px rgb(70, 66, 66);
     
 }
 .sec_box{
@@ -61,7 +61,7 @@ body{
     float: left;
     border: 1px solid  rgb(218, 173, 173);
     background-color:  rgb(204, 247, 237);
-    box-shadow: 3px 13px 17px 0px red;
+    box-shadow: 3px 13px 17px 0px rgb(70, 66, 66);
 }
 .led{
     height: 14.28%;
@@ -84,7 +84,7 @@ body{
     height: 20%;
     width: 55%;
     border-radius: 10px;;
-    background-color:   red;
+    background-color:   rgb(6, 133, 72);
     box-shadow: 3px 13px 17px 0px red;
 
  }
