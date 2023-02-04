@@ -121,10 +121,10 @@ let move = () => {
 
     // first hour
 
-    if (my_min == "00") {
+    
         runs_clear(1, 35);
         runs_clear(36, 70);
-    }
+    
     
     let my_hour_new_arr = my_hour.split("");
     
@@ -134,10 +134,10 @@ let move = () => {
     // second minit
 
 
-    if (my_sec == "00") {
+    
         runs_clear(71, 105);
         runs_clear(106, 140);
-    }
+    
    
     let my_min_new_arr = my_min.split("");
 
